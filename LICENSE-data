@@ -1,0 +1,13 @@
+Данные в каталоге data/ распространяются по лицензии
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+
+The files in data/ are licensed under CC BY 4.0.
+
+Это ПРОИЗВОДНЫЕ величины (показатели, агрегированные до тикер-дня), а не
+исходные данные Московской биржи. Исходный журнал заявок в пакет не входит и
+под эту лицензию не подпадает. Доступ к нему определяется условиями биржи.
+
+These are DERIVED quantities (measures aggregated to the ticker-day level), not
+Moscow Exchange source data. The raw order log is not included and is not
+covered by this licence; access to it is governed by the exchange's terms.

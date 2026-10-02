@@ -1,0 +1,35 @@
+# Проверка воспроизводимости на каждом изменении репозитория.
+#
+# Смысл не в том, чтобы поймать опечатку в коде: replicate.py пересчитывает
+# величины статьи из опубликованных данных и сверяет их с опубликованными
+# значениями. Если расчёт и текст статьи разойдутся, это станет видно здесь,
+# а не после того, как читатель не сойдётся в числах.
+
+name: Сверка с опубликованными числами
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Установить зависимости
+        run: pip install -r requirements.txt
+
+      - name: Пересчитать таблицы и сверить
+        run: python replicate.py --check
+
+      - name: Показатели из снимков книги
+        run: python replicate.py --example
+
+      - name: Контрольные суммы данных
+        run: sha256sum -c CHECKSUMS.sha256

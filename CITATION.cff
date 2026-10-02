@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "При использовании данных или кода ссылайтесь на статью."
+title: "Данные и код к статье «Больше розницы, не меньше эффективности: российский рынок акций после 2022 года»"
+type: dataset
+authors:
+  - family-names: Салихов
+    given-names: Марсель
+    email: msalihov@hse.ru
+    affiliation: "НИУ ВШЭ; Институт энергетики и финансов"
+repository-code: "https://github.com/quantviews/efficiency-paper-2026"
+license: CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "Больше розницы, не меньше эффективности: российский рынок акций после 2022 года"
+  authors:
+    - family-names: Салихов
+      given-names: Марсель
+  journal: "Деньги и кредит"
+  year: 2026
