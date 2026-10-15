@@ -5,6 +5,9 @@ after 2022 (Russian Journal of Money and Finance). [Русская версия]
 
 Repository: <https://github.com/quantviews/efficiency-paper-2026>.
 
+Archived version 1.0.0 on Zenodo: [10.5281/zenodo.23387914](https://doi.org/10.5281/zenodo.23387914).
+Use this version-specific DOI when citing the data.
+
 One script, no setup:
 
 ```bash

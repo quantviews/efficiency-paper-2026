@@ -6,6 +6,9 @@ Finance). [English version](README.en.md).
 
 Репозиторий: <https://github.com/quantviews/efficiency-paper-2026>.
 
+Архивная версия 1.0.0 в Zenodo: [10.5281/zenodo.23387914](https://doi.org/10.5281/zenodo.23387914).
+При цитировании данных указывайте DOI этой версии.
+
 Один скрипт, ноль настройки:
 
 ```bash
