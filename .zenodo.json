@@ -1,0 +1,28 @@
+{
+  "title": "Данные и код к статье «Больше розницы, не меньше эффективности: российский рынок акций после 2022 года»",
+  "upload_type": "dataset",
+  "description": "<p>Replication data and code for the article ‘More Retail, No Less Efficiency: The Russian Stock Market after 2022’ by Marsel Salikhov.</p><p>The package contains ticker-day measures for 60 Russian equities in 2021–2025 (5,732 observations), alternative sampling specifications, trading-rule results, figure data, experiment configuration, run manifests, reference estimates, and an independent Python replication script. A synthetic order-book snapshot example demonstrates the calculation of measures. Raw Moscow Exchange order logs and real order-book snapshots are not included.</p><p>Run <code>python replicate.py --check</code> to compare independently recomputed estimates with the reference values. Instructions are provided in Russian and English. Data are licensed under CC BY 4.0; the replication code is licensed under MIT, as specified in LICENSE-data and LICENSE.</p>",
+  "creators": [
+    {
+      "name": "Salikhov, Marsel",
+      "affiliation": "HSE University; Institute for Energy and Finance"
+    }
+  ],
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "market efficiency",
+    "market microstructure",
+    "Russian equity market",
+    "retail investors",
+    "replication data",
+    "Moscow Exchange"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/quantviews/efficiency-paper-2026",
+      "relation": "isSupplementTo"
+    }
+  ]
+}
